@@ -30,6 +30,7 @@ IdentityFile ~/.ssh/<github_id_rsa>
 - 切换分支 `git checkout <name>`
 - 创建➕切换分支 `git checkout -b <name>`
 - 合并分支到当前分支 `git merge <name>`   `git merge --no-ff -m "xxx"<name>`
+- 取远端分支到本地一个新分支 `git checkout -b <name> origin/<name>`
 - 删除分支 `git branch -d <name>`   `git branch -D <name>`
 
 ## 查看历史
@@ -47,6 +48,7 @@ IdentityFile ~/.ssh/<github_id_rsa>
 
 - 查看远程库信息 `git remote`    `git remote -v`
 - 本地推送分支 `git push origin <name>`
+- 删除远端分支 `git push origin --delete <name>`
 - `git pull`
 - 本地分支与远程分支关联`git branch --set-upstream <name> origin/<name>`
 - 本地创建与远程对应的分支 `git checkout -b <name> origin/<name>`
