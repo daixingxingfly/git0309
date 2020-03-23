@@ -9,7 +9,7 @@ git config --list
 git config --global --unset user.name
 git config --global --unset user.email
 
-ssh-keygen -t rsa -C "xxx"
+ssh-keygen -t rsa -C "xxx" -f "id_rsa_github"
 ssh-add ~/.ssh/<github_id_rsa>
 
 touch config
